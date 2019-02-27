@@ -1,8 +1,12 @@
-Html Hello World Demo
-=====================
+CSS Media Print Demo
+====================
 
 ```
 open index.html
 ```
 
-You will see `Hello, World!` on page.
+![html](./images/html.png)
+
+Then print it:
+
+![print](./images/print.png)

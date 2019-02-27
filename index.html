@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        @media print {
+            .no-print {
+                display: none
+            }
+        }
+    </style>
 </head>
 <body>
-<div>Hello, World!</div>
+
+<h1>Hello, Printing</h1>
+
+<div class="no-print">Content should not be printed</div>
+
+<div>Content for printing</div>
+
 </body>
 </html>
